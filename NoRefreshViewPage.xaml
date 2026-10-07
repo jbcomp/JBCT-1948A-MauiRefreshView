@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiRefreshView.NoRefreshViewPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <Label Text="No &lt;RefreshView&gt; present" HorizontalOptions="Center" Margin="0,0,0,20" />
+            <Label Text="Android: This does not let you drag down - correct" Margin="10,0,10,0" />
+            <Label Text="Android: This does not show the refresh animation - correct" Margin="10,0,10,0" />
+            <Label Text="Android: This does not fire the Refreshing event - correct" Margin="10,0,10,0" />
+            <Label Text="iOS: This does not let you drag down - correct" Margin="10,20,10,0" />
+            <Label Text="iOS: This does not show the refresh animation - correct" Margin="10,0,10,0" />
+            <Label Text="iOS: This does not fire the Refreshing event - correct" Margin="10,0,10,0" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

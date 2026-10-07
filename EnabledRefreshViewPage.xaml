@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiRefreshView.EnabledRefreshViewPage">
+
+    <RefreshView Refreshing="RefreshView_Refreshing">
+        <ScrollView>
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Pull-to-Refresh Enabled" HorizontalOptions="Center" Margin="0,0,0,20" />
+                <Label Text="Android: This lets you drag down - correct" Margin="10,0,10,0" />
+                <Label Text="Android: This shows the refresh animation - correct" Margin="10,0,10,0" />
+                <Label Text="Android: This fires the Refreshing event - correct" Margin="10,0,10,0" />
+                <Label Text="iOS: This lets you drag down - correct" Margin="10,20,10,0" />
+                <Label Text="iOS: This shows the refresh animation - correct" Margin="10,0,10,0" />
+                <Label Text="iOS: This fires the Refreshing event - correct" Margin="10,0,10,0" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </RefreshView>
+
+</ContentPage>
